@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		37B5698221C2139B00CE16A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5698121C2139B00CE16A6 /* AppDelegate.swift */; };
-		37B5698421C2139B00CE16A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5698321C2139B00CE16A6 /* ViewController.swift */; };
 		37B5698721C2139B00CE16A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B5698521C2139B00CE16A6 /* Main.storyboard */; };
 		37B5698921C2139E00CE16A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B5698821C2139E00CE16A6 /* Assets.xcassets */; };
 		37B5698C21C2139E00CE16A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B5698A21C2139E00CE16A6 /* LaunchScreen.storyboard */; };
 		37B5699721C2139E00CE16A6 /* EZKontactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5699621C2139E00CE16A6 /* EZKontactTests.swift */; };
+		37B569A921C2248200CE16A6 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B569A821C2248200CE16A6 /* ThemeManager.swift */; };
+		37B569AB21C2271400CE16A6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B569AA21C2271400CE16A6 /* SignInViewController.swift */; };
+		37B569AD21C22ADB00CE16A6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B569AC21C22ADB00CE16A6 /* DesignableView.swift */; };
+		37CFFFC781B85F6201DF01B2 /* Pods_EZKontact_EZKontactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F309C9CFBC2D39AA97204E /* Pods_EZKontact_EZKontactTests.framework */; };
+		9BC5A79C8E1D40D4A162AC83 /* Pods_EZKontact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97AD8A1759863958B772BAD /* Pods_EZKontact.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +32,6 @@
 /* Begin PBXFileReference section */
 		37B5697E21C2139B00CE16A6 /* EZKontact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKontact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B5698121C2139B00CE16A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37B5698321C2139B00CE16A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37B5698621C2139B00CE16A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37B5698821C2139E00CE16A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37B5698B21C2139E00CE16A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,15 @@
 		37B5699221C2139E00CE16A6 /* EZKontactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZKontactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B5699621C2139E00CE16A6 /* EZKontactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZKontactTests.swift; sourceTree = "<group>"; };
 		37B5699821C2139E00CE16A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B569A821C2248200CE16A6 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		37B569AA21C2271400CE16A6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		37B569AC21C22ADB00CE16A6 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		67F309C9CFBC2D39AA97204E /* Pods_EZKontact_EZKontactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZKontact_EZKontactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C1CB50E01A7145D88333F7 /* Pods-EZKontact-EZKontactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKontact-EZKontactTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZKontact-EZKontactTests/Pods-EZKontact-EZKontactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9FBCEE727322F64F495DCF4 /* Pods-EZKontact-EZKontactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKontact-EZKontactTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZKontact-EZKontactTests/Pods-EZKontact-EZKontactTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF8F696F092594ED851F409D /* Pods-EZKontact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKontact.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZKontact/Pods-EZKontact.release.xcconfig"; sourceTree = "<group>"; };
+		EF57A212BC9E6148C7F65B82 /* Pods-EZKontact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKontact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZKontact/Pods-EZKontact.debug.xcconfig"; sourceTree = "<group>"; };
+		F97AD8A1759863958B772BAD /* Pods_EZKontact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZKontact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC5A79C8E1D40D4A162AC83 /* Pods_EZKontact.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CFFFC781B85F6201DF01B2 /* Pods_EZKontact_EZKontactTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,8 @@
 				37B5698021C2139B00CE16A6 /* EZKontact */,
 				37B5699521C2139E00CE16A6 /* EZKontactTests */,
 				37B5697F21C2139B00CE16A6 /* Products */,
+				A38B83C5093323F34008CC63 /* Pods */,
+				57407DC8E456704B3E71D73D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				37B5698121C2139B00CE16A6 /* AppDelegate.swift */,
-				37B5698321C2139B00CE16A6 /* ViewController.swift */,
+				37B569A721C21D5B00CE16A6 /* Model */,
+				37B569A321C21D0000CE16A6 /* ViewModel */,
+				37B569A121C21CE200CE16A6 /* Controllers */,
+				37B569A621C21D4500CE16A6 /* Utilities */,
 				37B5698521C2139B00CE16A6 /* Main.storyboard */,
 				37B5698821C2139E00CE16A6 /* Assets.xcassets */,
 				37B5698A21C2139E00CE16A6 /* LaunchScreen.storyboard */,
@@ -96,6 +115,57 @@
 			path = EZKontactTests;
 			sourceTree = "<group>";
 		};
+		37B569A121C21CE200CE16A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37B569AA21C2271400CE16A6 /* SignInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37B569A321C21D0000CE16A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37B569A621C21D4500CE16A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				37B569AC21C22ADB00CE16A6 /* DesignableView.swift */,
+				37B569A821C2248200CE16A6 /* ThemeManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37B569A721C21D5B00CE16A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57407DC8E456704B3E71D73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F97AD8A1759863958B772BAD /* Pods_EZKontact.framework */,
+				67F309C9CFBC2D39AA97204E /* Pods_EZKontact_EZKontactTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38B83C5093323F34008CC63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF57A212BC9E6148C7F65B82 /* Pods-EZKontact.debug.xcconfig */,
+				CF8F696F092594ED851F409D /* Pods-EZKontact.release.xcconfig */,
+				91C1CB50E01A7145D88333F7 /* Pods-EZKontact-EZKontactTests.debug.xcconfig */,
+				C9FBCEE727322F64F495DCF4 /* Pods-EZKontact-EZKontactTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37B5699B21C2139E00CE16A6 /* Build configuration list for PBXNativeTarget "EZKontact" */;
 			buildPhases = (
+				BC6AF11DABAB44A4D1B0CA63 /* [CP] Check Pods Manifest.lock */,
 				37B5697A21C2139B00CE16A6 /* Sources */,
 				37B5697B21C2139B00CE16A6 /* Frameworks */,
 				37B5697C21C2139B00CE16A6 /* Resources */,
@@ -120,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37B5699E21C2139E00CE16A6 /* Build configuration list for PBXNativeTarget "EZKontactTests" */;
 			buildPhases = (
+				59C06BA50BED53A64A6F9876 /* [CP] Check Pods Manifest.lock */,
 				37B5698E21C2139E00CE16A6 /* Sources */,
 				37B5698F21C2139E00CE16A6 /* Frameworks */,
 				37B5699021C2139E00CE16A6 /* Resources */,
+				7897FA77E8B506001C967FE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,13 +265,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59C06BA50BED53A64A6F9876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZKontact-EZKontactTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7897FA77E8B506001C967FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EZKontact-EZKontactTests/Pods-EZKontact-EZKontactTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZKontact-EZKontactTests/Pods-EZKontact-EZKontactTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6AF11DABAB44A4D1B0CA63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZKontact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37B5697A21C2139B00CE16A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B5698421C2139B00CE16A6 /* ViewController.swift in Sources */,
+				37B569AD21C22ADB00CE16A6 /* DesignableView.swift in Sources */,
 				37B5698221C2139B00CE16A6 /* AppDelegate.swift in Sources */,
+				37B569A921C2248200CE16A6 /* ThemeManager.swift in Sources */,
+				37B569AB21C2271400CE16A6 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +490,7 @@
 		};
 		37B5699C21C2139E00CE16A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF57A212BC9E6148C7F65B82 /* Pods-EZKontact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +508,7 @@
 		};
 		37B5699D21C2139E00CE16A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8F696F092594ED851F409D /* Pods-EZKontact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +526,7 @@
 		};
 		37B5699F21C2139E00CE16A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C1CB50E01A7145D88333F7 /* Pods-EZKontact-EZKontactTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +547,7 @@
 		};
 		37B569A021C2139E00CE16A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FBCEE727322F64F495DCF4 /* Pods-EZKontact-EZKontactTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
