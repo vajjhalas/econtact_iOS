@@ -1,6 +1,0 @@
-framework module Pods_EZKontact_EZKontactTests {
-  umbrella header "Pods-EZKontact-EZKontactTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

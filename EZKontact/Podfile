@@ -7,9 +7,6 @@ target 'EZKontact' do
 
   # Pods for EZKontact
 
-  target 'EZKontactTests' do
-   pod 'SkyFloatingLabelTextField', '~> 3.0'
-
-  end
-
+  pod 'SkyFloatingLabelTextField'
+  pod 'Eureka'
 end

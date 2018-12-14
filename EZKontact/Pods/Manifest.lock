@@ -1,16 +1,20 @@
 PODS:
-  - SkyFloatingLabelTextField (3.5.1)
+  - Eureka (4.3.0)
+  - SkyFloatingLabelTextField (3.6.0)
 
 DEPENDENCIES:
-  - SkyFloatingLabelTextField (~> 3.0)
+  - Eureka
+  - SkyFloatingLabelTextField
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Eureka
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
-  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
 
-PODFILE CHECKSUM: 6695c57677f8a7caee16c028466f5b30e2c1719d
+PODFILE CHECKSUM: dbab20f0202357835a3415e3fe42ff05b3d26760
 
 COCOAPODS: 1.5.3

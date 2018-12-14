@@ -84,7 +84,7 @@ enum Theme: Int {
     var titleTextColor: UIColor {
         switch self {
         case .violetTheme:
-            return UIColor().colorFromHexString("ffffff")
+            return UIColor.white ///colorFromHexString("ffffff")
         case .theme2:
             return UIColor().colorFromHexString("000000")
         }
@@ -127,6 +127,8 @@ class ThemeManager {
         UINavigationBar.appearance().backgroundColor = theme.mainColor
         UINavigationBar.appearance().tintColor = theme.backgroundColor
         UINavigationBar.appearance().barTintColor = theme.mainColor
-        
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.foregroundColor:theme.titleTextColor]
+
+
     }
 }
